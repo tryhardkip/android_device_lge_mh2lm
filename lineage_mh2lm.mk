@@ -30,6 +30,9 @@ TARGET_PREBUILT_LAWNCHAIR_LAUNCHER := true
 # disable/enable blur support, default is false
 TARGET_ENABLE_BLUR := true
 
+# Whether to ship aperture camera, false by default
+PRODUCT_NO_CAMERA := false
+
 # rising Maintainer
 RISING_MAINTAINER := Xtrakari
 
