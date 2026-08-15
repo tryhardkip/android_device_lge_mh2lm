@@ -67,3 +67,7 @@ PRODUCT_SOONG_NAMESPACES += \
 
 # Get non-open-source specific aspects
 $(call inherit-product-if-exists, vendor/lge/mh2lm/mh2lm-vendor.mk)
+
+# Lunaris Surface Flinger RefreshRate
+$(call soong_config_set,surfaceflinger,frame_rate_category_high,120)
+$(call soong_config_set,surfaceflinger,frame_rate_category_min,60)
