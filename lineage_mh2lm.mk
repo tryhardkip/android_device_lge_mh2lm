@@ -23,3 +23,10 @@ PRODUCT_BUILD_PROP_OVERRIDES += \
     DeviceProduct=mh2lm \
     BuildDesc="mh2lm-user 12 SKQ1.211103.001 223331636afae release-keys" \
     BuildFingerprint=lge/mh2lm/mh2lm:12/SKQ1.211103.001/223331636afae:user/release-keys
+
+# Lunaris Stuff
+TARGET_CUSTOM_UDFPS := true
+WITH_GMS := false
+TARGET_USE_FILES := true
+USE_REALITY_ENGINE := true
+SURFACE_FLINGER_BOOST := true
