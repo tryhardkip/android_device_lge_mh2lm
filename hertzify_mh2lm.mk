@@ -7,11 +7,15 @@
 # Inherit from device
 $(call inherit-product, device/lge/mh2lm/device.mk)
 
-# Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+# Inherit some common Hertzify stuff.
+$(call inherit-product, vendor/hertzify/config/common_full_phone.mk)
+
+TARGET_BOOT_ANIMATION_RES := 1080
+HERTZIFY_MAINTAINER := Xtrakari
+HERTZIFY_BUILD_TYPE := UNOFFICIAL
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_mh2lm
+PRODUCT_NAME := hertzify_mh2lm
 PRODUCT_DEVICE := mh2lm
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_BRAND := LGE
