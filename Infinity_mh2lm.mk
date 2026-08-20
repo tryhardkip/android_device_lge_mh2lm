@@ -8,15 +8,24 @@
 $(call inherit-product, device/lge/mh2lm/device.mk)
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_mh2lm
+PRODUCT_NAME := infinity_mh2lm
 PRODUCT_DEVICE := mh2lm
 PRODUCT_MANUFACTURER := LGE
 PRODUCT_BRAND := LGE
 PRODUCT_MODEL := G8X ThinQ
 
+# Infinity-X Specific Flags
+INFINITY_BUILD_TYPE := UNOFFICIAL
+INFINITY_MAINTAINER := "Xtrakari"
+TARGET_BOOT_ANIMATION_RES := 1080
+TARGET_SUPPORTS_BLUR := true
+TARGET_HAS_UDFPS := true
+
+# Gapps
+WITH_GAPPS := false
 PRODUCT_GMS_CLIENTID_BASE := android-lge
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
