@@ -1,2 +1,9 @@
+# Infinity
+ro.infinity.soc=Qualcomm® Snapdragon™ 855
+ro.infinity.battery=4000 mAh
+ro.infinity.display=1080 x 2340, 60Hz
+ro.infinity.camera=12MP + 13MP
+ro.product.marketname=LG G8X ThinQ / V50S ThinQ
+
 # Voice assistant
 ro.opa.device_model_id=mh2-kr-deviceaction-mh2-kr-nijr7q
