@@ -11,6 +11,7 @@ $(call inherit-product, device/lge/mh2lm/device.mk)
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
 PRODUCT_SOURCE_ROOT_DIRS += prebuilts/misc/protobuf_vendorcompat
+PRODUCT_SOURCE_ROOT_DIRS := $(filter-out -prebuilts/misc/protobuf_vendorcompat,$(PRODUCT_SOURCE_ROOT_DIRS))
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := infinity_mh2lm
