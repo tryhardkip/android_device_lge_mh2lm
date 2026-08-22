@@ -7,8 +7,9 @@
 # Inherit from device
 $(call inherit-product, device/lge/mh2lm/device.mk)
 
-# Inherit some common Lineage stuff.
+# Inherit some common DerpFest stuff.
 $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+DERPFEST_BUILD_TYPE := Unofficial
 
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := lineage_mh2lm
