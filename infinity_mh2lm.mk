@@ -10,6 +10,8 @@ $(call inherit-product, device/lge/mh2lm/device.mk)
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/infinity/config/common_full_phone.mk)
 
+PRODUCT_SOURCE_ROOT_DIRS += prebuilts/misc/protobuf_vendorcompat
+
 # Device identifier. This must come after all inclusions.
 PRODUCT_NAME := infinity_mh2lm
 PRODUCT_DEVICE := mh2lm
