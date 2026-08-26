@@ -1,3 +1,6 @@
+# Device name
+ro.product.marketname=LG G8X/V50S ThinQ
+
 # Audio
 persist.vendor.lge.3rd.speaker.prot.enable=false
 
