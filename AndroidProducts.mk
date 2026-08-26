@@ -5,4 +5,4 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_mh2lm.mk
+    $(LOCAL_DIR)/matrixx_mh2lm.mk
