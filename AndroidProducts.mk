@@ -5,4 +5,9 @@
 #
 
 PRODUCT_MAKEFILES += \
-    $(LOCAL_DIR)/lineage_mh2lm.mk
+    $(LOCAL_DIR)/hertzify_mh2lm.mk
+
+COMMON_LUNCH_CHOICES := \
+    hertzify_mh2lm-bp4a-user \
+    hertzify_mh2lm-bp4a-userdebug \
+    hertzify_mh2lm-bp4a-eng
