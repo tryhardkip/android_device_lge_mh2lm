@@ -12,6 +12,9 @@ TARGET_BOOT_ANIMATION_RES := 1080
 HERTZIFY_MAINTAINER := Xtrakari
 HERTZIFY_BUILD_TYPE := UNOFFICIAL
 
+# Vanilla build (no Google apps)
+WITH_GMS := false
+
 # Inherit some common HertzifyOS stuff.
 $(call inherit-product, vendor/hertzify/config/common_full_phone.mk)
 
